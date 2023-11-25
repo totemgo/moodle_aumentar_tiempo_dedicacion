@@ -26,8 +26,3 @@ https://school.moodledemo.net/course/view.php?id=71
 El script visitará la página principal del curso y recopilará todos los enlaces de las pantallas principales de los recursos, sin profundizar más (eso significa que, por ejemplo, en un recurso de tipo "Foro" no entrará en hilos que no estén en la pantalla principal).
 
 Las visitas y el tiempo de espera se hacen de manera aleatoria.
-
-Ejemplo de ejecución:
-```bash
-
-``````
