@@ -1,0 +1,16 @@
+[package]
+name = "moodle_aumentar_tiempo_dedicacion"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+chrono = "0.4.31"
+clap = { version = "4.4.8", features = ["derive"] }
+futures = "0.3.29"
+rand = "0.8.5"
+reqwest = { version = "0.11.22", features = ["cookies"] }
+scraper = "0.18.1"
+tokio = { version = "1.34.0", features = ["full"] }
+url = "2.4.1"
